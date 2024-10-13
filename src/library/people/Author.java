@@ -4,4 +4,9 @@ public class Author extends Person{
     public Author(String name, String id){
         super (name, id);
     }
+
+    @Override
+    public void displayInfo() {
+
+    }
 }

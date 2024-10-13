@@ -1,6 +1,7 @@
 package library.people;
 
-public class Person {
+// Abstract sınıf
+public abstract class Person {
     protected String name;
     protected String id;
 
@@ -16,4 +17,6 @@ public class Person {
     public String getId() {
         return id;
     }
+
+    public abstract void displayInfo(); // Alt sınıflar tarafından uygulanacak
 }

@@ -9,6 +9,11 @@ public class Reader extends Person {
         this.borrowedBooksCount = 0; // Başlangıçta ödünç alınan kitap yok
     }
 
+    @Override
+    public void displayInfo() {
+
+    }
+
     // Kullanıcı kitap ödünç alabilir mi?
     public boolean canBorrow() {
         return borrowedBooksCount < maxBookLimit;

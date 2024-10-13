@@ -9,6 +9,11 @@ public class Librarian extends Person { // Librarian sınıfı, Person sınıfı
         super(name, id); // Person sınıfının constructor'ına isim ve ID gönderir.
     }
 
+    @Override
+    public void displayInfo() {
+
+    }
+
     // Kütüphaneye kitap eklemek için kullanılan metod
     public void addBook(Library library, Book book) { // Parametre olarak Library ve Book nesneleri alır.
         library.addBook(book); // Belirtilen kütüphaneye kitabı ekler.
